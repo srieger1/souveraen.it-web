@@ -145,7 +145,7 @@ function Leistungen() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ once: true, margin: "-100px" }} className="grid md:grid-cols-3 gap-6">
           {items.map((it, idx) => (
-            <motion.div key={idx} variants={item}>
+            <motion.div key={idx}>
               <Card className="rounded-3xl h-full">
                 <CardHeader>
                   <div className="h-11 w-11 rounded-2xl bg-neutral-100 inline-flex items-center justify-center mb-3">
